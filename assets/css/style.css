@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.card-header{
+    text-align: center;
+}
+.text-danger{
+    color: #a30e0e;
+}
+.card{
+    border: 1px solid #c7c7c7;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.472);
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.form-control:focus{
+    outline: none;
+    border-color: #0000ff78;
+}
+.divider{
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    height: 10px;
+    border-bottom: 1px solid #c7c7c7c1;
+    position: relative;
+}
+.divider::before{
+    content: "Or";
+    padding: 5px 20px;
+    background-color: #fff;
+    position: absolute;
+    left: 40%;
+    bottom: -16px;
+}
+.btn{
+    border: 1px solid transparent;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 1px 1px 5px #c7c7c7;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.btn:focus{
+    border: 1px solid #000000;
+}
+.btn-block{
+    width: 100%;
+}
+.error{
+    display: none;
+}
+.user-card{
+    display: block;
+}
+.weather-card{
+    display: none;
+    width: 380px;
+    text-align: center;
+    padding: 0;
+}
+.weather-card .card-header{
+    padding: 20px 25px;
+    box-sizing: border-box;
+}
+.card-img-top{
+    width: 50%;
+    margin: 10px 0px;
+}
+.text-left{
+    text-align: left;
+}
+.arrow-btn{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+.arrow-btn:focus{
+    outline: none;
+}
+.font-50{
+    font-size: 50px;
+}
+.temp-deg{
+    font-size: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.card-footer{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+.card-footer .col-md-6:last-child{
+    border-left: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.card-footer .col-md-6:first-child{
+    border-top: 1px solid #c7c7c7;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.card-footer .col-md-6{
+    display: flex;
+    justify-content: center;
+}
+.feel-like,.humi{
+    text-align: left;
+    padding-left: 10px;
+}
+.tharmo,.drop{
+    font-size: 35px;
+    color: #3fccd4;
+}
